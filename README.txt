@@ -1,1 +1,1 @@
-This is a test!
+This is a responsive design webpage, I used CSS3 GRID.
