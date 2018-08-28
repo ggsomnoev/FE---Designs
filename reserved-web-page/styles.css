@@ -1,0 +1,11 @@
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1290px;
+    margin: 0 auto 30px auto;
+    padding: 0;
+}
+.box-img {    
+    flex-basis: calc(25% - 20px);
+    margin: 0 10px 10px;
+}
