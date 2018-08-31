@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container > * {
+    flex: 1 100%;
+    padding: 20px;
+    border: 1px solid blue;
+}
+
+@media all and (min-width: 800px){
+    .aside {
+        flex: 1 0;
+    }
+}
